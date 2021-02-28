@@ -55,6 +55,10 @@
   transition: all 0.25s ease;
 }
 
+.countDownButton svg {
+  margin-left: 10px;
+}
+
 .countDownButton:not(:disabled):hover {
   background: var(--blue-dark);
 }
